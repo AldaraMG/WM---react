@@ -1,0 +1,29 @@
+
+
+
+
+.bloque {
+    
+    
+    color: black; 
+    padding: 1.25rem; 
+    font-size: 1.5625rem; 
+    grid-column: 1/5; 
+}
+
+h1 {
+    background-color: #98bae700;
+    font-family: 'Inconsolata';
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 1.875rem;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+h1:hover {
+    background-color: #7267CB;
+    color: white;
+  }
+

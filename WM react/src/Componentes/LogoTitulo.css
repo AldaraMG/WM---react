@@ -1,0 +1,28 @@
+.bloque {
+    
+    
+    color: black; 
+    padding: 1.25rem; 
+    font-size: 1.5625rem; 
+    grid-column: 1/5; 
+}
+
+
+#subtitulo {
+    font-family:'Inconsolata';
+    font-size: 5.625rem;
+    color: white;
+}
+
+#subtitulo-wm {
+    font-family: 'Inconsolata';
+    font-size: 7.5rem;
+    color: white;
+}
+
+#subtitulo-tec {
+    font-family: 'Inconsolata';
+    font-size: 4.375rem;
+    color: white;
+}
+

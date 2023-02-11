@@ -1,0 +1,52 @@
+@font-face {
+  font-family:'Inconsolata';
+  src: url('Inconsolataregular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Tajawal';
+  src: url('tajawalregular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+#root {
+    
+  background-image: url(../public/Fotos/WipeOut04_22_2022_030420.735000.jpg);
+  
+  display: grid; 
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 3%  auto auto auto auto 5% ;
+  background-color: black; 
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center; 
+  padding: 1.25rem; 
+  height: auto; 
+
+  width: auto;
+  
+}
+
+/* Media query */ 
+@media all and (max-width: 37.5rem) {
+  .footer1 , .footer2 , .footer3 , .footer4 {
+      grid-column: 1 / 5; 
+  }
+  .grid-container { grid-template-rows: 5% auto auto auto auto auto auto auto 5%;}
+  .photo-container {
+      flex-direction: column;
+  }
+  h1 { background-color: #7267CB; color: white;
+  }
+  
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  }

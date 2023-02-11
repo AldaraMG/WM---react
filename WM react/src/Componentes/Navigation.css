@@ -1,0 +1,13 @@
+
+.Navigation{
+    
+    grid-column: 1/5;
+    background-color: #7267CB;
+    font-size: 1.5625rem;
+    
+}
+.navbar-expand-lg{
+    display:flex;
+    flex-direction: row;
+    font-size: 1.600rem;
+}
